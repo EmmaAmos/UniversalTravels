@@ -18,9 +18,8 @@
             document.getElementById('endCard').innerHTML = data;
         });
 */
-
-    
-    fetch('/Nav.html')
+/*
+    fetch('NavElelments/Nav.html')
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.text();
@@ -31,7 +30,8 @@
     .catch(error => console.error('Fetch error:', error));
 
 
-    fetch('/Headline.html')
+
+    fetch('NavElelments/Headline.html')
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.text();
@@ -41,9 +41,9 @@
     })
     .catch(error => console.error('Fetch error:', error));
 
-    
 
-    fetch('/Social.html')
+
+    fetch('NavElelments/Social.html')
     .then(response => {
         if (!response.ok) throw new Error('Network response was not ok');
         return response.text();
@@ -52,3 +52,20 @@
         document.getElementById('endCard').innerHTML = data;
     })
     .catch(error => console.error('Fetch error:', error));
+    */
+
+    function loadContent(url, elementId) {
+        fetch(url)
+            .then(response => {
+                if (!response.ok) throw new Error(`Error loading ${url}: ${response.status}`);
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById(elementId).innerHTML = data;
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+    
+    loadContent('NavElement/Nav.html', 'nav-placeholder');
+    loadContent('NavElement/Headline.html', 'headline');
+    loadContent('NavElement/Social.html', 'endCard');
