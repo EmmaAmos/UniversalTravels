@@ -1,0 +1,16 @@
+12/17/2024, The following is what I'll be setting up first. It'll be the ground work for the project.
+
+The first page:MainPage.html
+    The set up: The navigation will feater two pictures, which will act as links.
+        The first picture will be of Islands of Adventure and the Secound will be of Universal Stuidos.
+        Under the nav, which will be in the middle of the page, will be a few comments from our reporters.
+
+The Universal Page: UniversalSide.html
+    The set up: The nav will be moved towards the top of the page and will be smaller. This page will then have a nav to the side
+    for differnt aspects of the park's experinces. These will include parades, meet and greets, food, cleanliness, and rides.
+    Near the bottum of the main page will be our thoughts and feelings of the Universal side over all.
+    These pages will be kept in their own folder for up-keep while programming.
+
+The Islands of Adventure Page: IOAside.html
+    The set up: It'll be a near copy of the UniversalSide.html with the same nav set ups. The forulaic set up is to
+    help user interaction with the site.
