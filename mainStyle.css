@@ -1,0 +1,165 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+@keyframes colorChange { /*this changes the h1 colors*/
+    0% {
+        color: rgba(179, 144, 8, 0.93);
+    }
+    50% {
+        color: rgba(194, 157, 8, 0.93);
+    }
+    100% {
+        color: rgb(184, 150, 14);
+    }
+}
+
+.headline{
+
+    
+    h1 {
+        text-align: center; /* Center horizontally */
+        margin-top: 0; /* Adjust the top margin as needed */
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: auto;
+        padding-bottom: auto;
+        font-family: "Lora", serif;
+        animation: colorChange 3s infinite; /* Add the animation */
+    }
+    
+
+    h2 {
+        text-align: center; /* Center horizontally */ 
+        margin-top: 0; /* Adjust the top margin as needed */ 
+        position: absolute;
+        top: 50px; /* Adjust the top value to position it just under the h1 */ 
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        animation: colorChange 3s infinite; /* Add the animation */
+    }
+
+
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Adjust the gap between images as needed */ 
+    background-color: rgb(241, 224, 184);
+    padding: 60px;
+    padding-top: 100px;
+}
+
+nav img {
+    justify-content: center;
+    width: 300px; 
+    height: 300px;
+    max-width: none; 
+}
+
+nav .rounded-image {
+    border-radius: 50px;
+}
+
+nav .mainPageLink{
+    justify-content: center;
+    width: 550px; 
+    height: 300px;
+    max-width: none;
+}
+
+/*Soical*/
+div .endStripe {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(241, 224, 184);
+    width: 100%; 
+    padding: 10px;
+    padding-top: 10px;
+    position: relative; /* Add this line */
+  }
+  
+  div .endStripe::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(241, 224, 184); 
+    z-index: -1; /* Make sure the background is behind the images */
+  }
+  
+  div .endStripe img {
+    width: auto;
+    height: 50px;
+    max-width: none;
+  }
+
+
+/*Grid*/
+.displayGrid { display: flex; 
+    justify-content: space-between; /* Distribute space between items */ 
+    padding: 20px;
+}
+
+.map{
+    justify-content: center;
+    width: 400px; 
+    height: auto;
+    max-width: none; 
+}
+
+/*For MainPage and IOA Page*/
+.table-container-island {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Add some space between the images and the table */
+
+    flex: 1; /* Make items take up equal space */ 
+    margin-top: 20px; /* Add some space between the images and the table */ 
+    margin: 0 10px; /* Add space between items */ 
+    max-width: 45%; /* Adjust the maximum width as needed */
+}
+
+table {
+    width: 100%; /* Make the table take up the full width of the container */
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 100%; /* Make the table cells take up the full width */
+    padding: 8px;
+}
+
+/*For MainPage and UNiversal Page*/
+.table-container-universal {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Add some space between the images and the table */
+
+    flex: 1; /* Make items take up equal space */ 
+    margin-top: 20px; /* Add some space between the images and the table */ 
+    margin: 0 10px; /* Add space between items */ 
+    max-width: 45%; /* Adjust the maximum width as needed */
+}
+
+table {
+    width: 100%; /* Make the table take up the full width of the container */
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 100%; /* Make the table cells take up the full width */
+    padding: 8px;
+}
