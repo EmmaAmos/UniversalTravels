@@ -1,0 +1,75 @@
+ <table>
+        <th><h1>What is on the Islands' Side?</h1></th>
+        <tr>
+            <td>
+                <h3>The Incredible Hulk Coaster</h3>
+                A thrilling roller coaster with multiple inversions and high speeds.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Doctor Doom's Fearfall</h3>
+                A drop tower ride that launches you up and drops you down rapidly.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Storm Force Accelatron</h3>
+                A spinning ride similar to the classic teacup rides.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>The Amazing Adventures of Spider-Man</h3>
+                A 3D dark ride that combines motion simulation and special effects.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Jurassic Park River Adventure</h3>
+                A water ride that takes you through the world of Jurassic Park.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Popeye & Bluto's Bilge-Rat Barges</h3>
+                A white-water rafting ride that will get you soaked.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Dudley Do-Right's Ripsaw Falls</h3>
+                A log flume ride with a big drop at the end.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Hagrid's Magical Creatures Motorbike Adventure</h3>
+                A roller coaster that takes you through the Forbidden Forest.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Harry Potter and the Forbidden Journey</h3>
+                A dark ride inside Hogwarts Castle with impressive animatronics and effects.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Flight of the Hippogriff</h3>
+                A family-friendly roller coaster in the Wizarding World of Harry Potter.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>The High in the Sky Seuss Trolley Train Ride!</h3>
+                A gentle ride through Seuss Landing with great views of the park.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Caro-Seuss-el</h3>
+                A whimsical carousel featuring characters from Dr. Seuss books.
+            </td>
+        </tr>
+    </table>
